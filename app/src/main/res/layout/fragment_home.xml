@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="395dp"
+        android:layout_height="731dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_inco"
+        android:layout_width="141dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn4"
+        android:hint="@string/btn_income"
+        android:text="@string/btn_income"
+        app:cornerRadius="?attr/dialogCornerRadius"
+        app:layout_constraintEnd_toStartOf="@+id/btn_expenses"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_account"
+        android:layout_width="141dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btn6"
+        android:hint="@string/btn_Accounts"
+        android:text="@string/btn_Accounts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toEndOf="@+id/btn_cat"
+        app:layout_constraintTop_toBottomOf="@+id/btn_expenses" />
+
+    <Button
+        android:id="@+id/btn_expenses"
+        android:layout_width="141dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/btn5"
+        android:backgroundTint="#9DEC43"
+        android:hint="@string/btn_expen"
+        android:text="@string/btn_expen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cat"
+        android:layout_width="141dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btn7"
+        android:hint="@string/btn_cat"
+        android:text="@string/btn_cat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_inco" />
+
+    <Button
+        android:id="@+id/balance_btn"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/btn2"
+        android:hint="@string/balance_btn"
+        android:text="@string/balance_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_reports1"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="117dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FAFBFB"
+        android:scaleType="fitXY"
+        android:src="?android:attr/actionModeFindDrawable"
+        android:tint="@color/design_default_color_error"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cat" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="99dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FBF8F8"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_dialog_dialer"
+        android:tint="@color/material_dynamic_tertiary10"
+        app:layout_constraintStart_toEndOf="@+id/btn_reports1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_account" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="108dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FDF9F9"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_preferences"
+        android:tint="#560863"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toEndOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/btn_account" />
+
+    <TextView
+        android:id="@+id/report_icon"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:hint="@string/report_icon"
+        android:text="@string/report_icon"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_reports1" />
+
+    <TextView
+        android:id="@+id/btn_setting"
+        android:layout_width="98dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:hint="@string/btn_setting"
+        android:text="@string/btn_setting"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+
+    <TextView
+        android:id="@+id/btn_cal"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/btn_cal"
+        android:text="@string/btn_cal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_setting"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

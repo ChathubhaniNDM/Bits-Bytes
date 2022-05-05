@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Wallet Guard</string>
+    <string name="nav_header_subtitle">Save Your Money with Wallet Guard</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Rate Us</string>
+    <string name="menu_slideshow">Contact Us</string>
+    <string name="btn_expen">Expenses</string>
+    <string name="btn_income">Income</string>
+    <string name="btn_Accounts">Accounts</string>
+    <string name="btn_cat">Categories</string>
+    <string name="report_icon">Reports</string>
+    <string name="btn_cal">Calculator</string>
+    <string name="btn_setting">Settings</string>
+    <string name="balance_btn">Balance</string>
+</resources>
